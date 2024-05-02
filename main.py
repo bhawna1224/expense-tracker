@@ -5,7 +5,7 @@ from tkinter import simpledialog, messagebox
 from datetime import datetime
 
 # Step 1: Set up SQLite database
-conn = sqlite3.connect('budget3.db')
+conn = sqlite3.connect('budget.db')
 c = conn.cursor()
 
 # Create expenses table with the new "investment" column
